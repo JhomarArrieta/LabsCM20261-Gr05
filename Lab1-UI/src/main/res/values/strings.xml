@@ -1,3 +1,39 @@
 <resources>
     <string name="app_name">LabsCM20261-Gr05</string>
+
+    <!-- Pantalla 1 -->
+    <string name="title_personal_data">Información Personal</string>
+    <string name="label_nombres">Nombres *</string>
+    <string name="label_apellidos">Apellidos *</string>
+    <string name="label_sexo">Sexo</string>
+    <string name="option_masculino">Masculino</string>
+    <string name="option_femenino">Femenino</string>
+    <string name="option_otro">Otro</string>
+    <string name="label_fecha_nacimiento">Fecha de nacimiento *</string>
+    <string name="select_date">Seleccionar fecha</string>
+    <string name="label_grado_escolaridad">Grado de escolaridad</string>
+    <string name="btn_siguiente">Siguiente</string>
+
+    <!-- Pantalla 2 -->
+    <string name="title_contact_data">Información de Contacto</string>
+    <string name="label_telefono">Teléfono *</string>
+    <string name="label_direccion">Dirección</string>
+    <string name="label_email">Email *</string>
+    <string name="label_pais">País *</string>
+    <string name="label_ciudad">Ciudad</string>
+    <string name="btn_guardar">Guardar</string>
+
+    <!-- Errores -->
+    <string name="error_campo_requerido">Este campo es obligatorio</string>
+    <string name="error_email_invalido">Email inválido</string>
+
+    <!-- Spinner escolaridad -->
+    <string-array name="grados_escolaridad">
+        <item>Primaria</item>
+        <item>Secundaria</item>
+        <item>Técnico</item>
+        <item>Tecnólogo</item>
+        <item>Universitario</item>
+        <item>Posgrado</item>
+    </string-array>
 </resources>

@@ -1,2 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="app_name">LabsCM20261-Gr05</string>
+
+    <!-- Screen 1 -->
+    <string name="title_personal_data">Personal Information</string>
+    <string name="label_nombres">First Name *</string>
+    <string name="label_apellidos">Last Name *</string>
+    <string name="label_sexo">Gender</string>
+    <string name="option_masculino">Male</string>
+    <string name="option_femenino">Female</string>
+    <string name="option_otro">Other</string>
+    <string name="label_fecha_nacimiento">Date of birth *</string>
+    <string name="select_date">Select date</string>
+    <string name="label_grado_escolaridad">Education level</string>
+    <string name="btn_siguiente">Next</string>
+
+    <!-- Screen 2 -->
+    <string name="title_contact_data">Contact Information</string>
+    <string name="label_telefono">Phone *</string>
+    <string name="label_direccion">Address</string>
+    <string name="label_email">Email *</string>
+    <string name="label_pais">Country *</string>
+    <string name="label_ciudad">City</string>
+    <string name="btn_guardar">Save</string>
+
+    <!-- Errors -->
+    <string name="error_campo_requerido">This field is required</string>
+    <string name="error_email_invalido">Invalid email</string>
+
+    <!-- Education spinner -->
+    <string-array name="grados_escolaridad">
+        <item>Elementary</item>
+        <item>High School</item>
+        <item>Technical</item>
+        <item>Technologist</item>
+        <item>University</item>
+        <item>Postgraduate</item>
+    </string-array>
+</resources>
