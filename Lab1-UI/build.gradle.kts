@@ -13,7 +13,7 @@ android {
 
     defaultConfig {
         applicationId = "co.edu.udea.compumovil.gr05_20261.lab1"
-        minSdk = 21
+        minSdk = 24
         targetSdk = 36
         versionCode = 1
         versionName = "1.0"
